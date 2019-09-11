@@ -1,0 +1,22 @@
+{
+  "name": "fm-input-group-merge",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rollup -c --environment BUILD:production",
+    "watch": "rollup -c --watch"
+  },
+  "main": "dist/fm-input-group-merge.css",
+  "author": "FrontendMatter <contact@frontendmatter.com> (http://www.frontendmatter.com)",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "bootstrap": "^4.1.3",
+    "node-sass": "^4.11.0",
+    "rollup": "^1.21.2",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
+    "rollup-plugin-postcss": "^2.0.3"
+  },
+  "peerDependencies": {
+    "bootstrap": "^4.1.3"
+  }
+}
